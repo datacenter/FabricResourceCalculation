@@ -1,0 +1,8 @@
+---
+host: <your ip address>
+user: admin
+password: <your password>
+optional_args:
+  leaves:
+  - '101'
+  - '103'

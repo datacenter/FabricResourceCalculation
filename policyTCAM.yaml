@@ -1,0 +1,11 @@
+---
+host: <your ip address>
+user: admin
+password: <your password>
+optional_args:
+  nodes:
+  - 102
+  - 103
+  time_interval:
+  - 5 mins
+  - 1 week

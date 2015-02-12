@@ -1,0 +1,26 @@
+---
+tenant:
+  number: 100
+  stretched: 0
+  span: 20
+  constraint: 1000
+
+epg:
+  number: 35
+  span: 20
+  constraint: 3500
+
+## You may specify as much as parameters as you want.
+# - key: <key_name>
+#   number: <number of the parameter per tenant>
+#   span: <how much the key spans>
+#   constraint: <the amount that a Tor can hold>
+parameters:
+- key: 'ep'
+  number: 640
+  span: 2
+  constraint: 6000
+- key: 'bd'
+  number: 0
+  span: 0
+  constraint: 1
